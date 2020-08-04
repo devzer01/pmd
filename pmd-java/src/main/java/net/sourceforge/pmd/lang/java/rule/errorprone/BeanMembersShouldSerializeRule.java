@@ -45,7 +45,9 @@ public class BeanMembersShouldSerializeRule extends AbstractLombokAwareRule {
         return Arrays.asList(
             "lombok.Data",
             "lombok.Getter",
-            "lombok.Value"
+            "lombok.Value",
+            "org.springframework.stereotype.Service",
+            "org.springframework.stereotype.Component"
         );
     }
 
